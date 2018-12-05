@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/primaryLightColor</item>
+        <item name="android:textColorHint">@color/textHintColor</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+
+    <style name="Autocomplete">
+        <item name="colorControlNormal">@color/primaryTextColor</item>
+        <item name="colorControlActivated">@color/primaryTextColor</item>
+
+    </style>
+
+    <style name="CounterStyle" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textColor">@android:color/white</item>
+        <!--other parameters that you want to change -->
+    </style>
+
+</resources>
